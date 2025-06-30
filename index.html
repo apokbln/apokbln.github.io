@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Kablan - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#1E40AF',
+                        dark: '#1F2937'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="text-xl font-bold text-primary">Abdullah KABLAN</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link">Ana Sayfa</a>
+                    <a href="#about" class="nav-link">Hakkımda</a>
+                    <a href="#projects" class="nav-link">Projeler</a>
+                    <a href="#contact" class="nav-link">İletişim</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-primary">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="mobile-nav-link">Ana Sayfa</a>
+                <a href="#about" class="mobile-nav-link">Hakkımda</a>
+                <a href="#projects" class="mobile-nav-link">Projeler</a>
+                <a href="#contact" class="mobile-nav-link">İletişim</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-8">
+                <img src="images/ABDULLAH KAPLAN(kare).JPG" 
+                     alt="Abdullah Kablan" 
+                     class="w-48 h-48 rounded-full mx-auto mb-8 object-cover shadow-2xl border-4 border-white">
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold text-dark mb-4">
+                Abdullah Kablan
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-600 mb-8">
+                Yazılım Mühendisi
+            </p>
+            <div class="flex justify-center space-x-4 mb-8">
+                <div class="bg-white px-6 py-3 rounded-full shadow-lg">
+                    <i class="fas fa-code text-primary mr-2"></i>
+                    <span class="font-semibold">Web Geliştirme</span>
+                </div>
+                <div class="bg-white px-6 py-3 rounded-full shadow-lg">
+                    <i class="fas fa-mobile-alt text-primary mr-2"></i>
+                    <span class="font-semibold">Mobil Uygulama</span>
+                </div>
+                <div class="bg-white px-6 py-3 rounded-full shadow-lg">
+                    <i class="fas fa-palette text-primary mr-2"></i>
+                    <span class="font-semibold">UI/UX Tasarım</span>
+                </div>
+            </div>
+            <a href="#contact" class="bg-primary hover:bg-secondary text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
+                İletişime Geç
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-dark mb-4">Hakkımda</h2>
+                <div class="w-24 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold text-dark mb-6">Merhaba! Ben Abdullah</h3>
+                    <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+                        Ben Abdullah KABLAN. 2021 yılında Malatya
+                        Turgut Özal Üniversitesinde 1 senelik
+                        eğitimimden sonra yatay geçiş yaparak
+                        2022'den bu yana Mehmet Akif Ersoy
+                        Üniversitesinde Yazılım Mühendisliği alanında
+                        öğrenim görmekteyim.
+                    </p>
+                    <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+                        Tutkulu bir yazılım geliştiricisiyim ve modern web teknolojileri konusunda uzmanlaşmış bulunuyorum. 
+                        Kullanıcı deneyimini ön planda tutarak, performanslı ve estetik web uygulamaları geliştiriyorum.
+                    </p>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                        Sürekli öğrenmeye odaklanan bir yaklaşımla, en güncel teknolojileri takip ediyor ve 
+                        projelerimde uyguluyorum. Takım çalışmasına değer veriyor ve her projede en iyi sonucu 
+                        elde etmek için çaba gösteriyorum.
+                    </p>
+                    
+                    
+                </div>
+                
+                <div>
+                    <h4 class="text-xl font-bold text-dark mb-6">Yeteneklerim</h4>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">HTML/CSS</span>
+                                <span class="text-primary">95%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-primary h-2 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">JavaScript</span>
+                                <span class="text-primary">50%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-primary h-2 rounded-full" style="width: 50%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Python</span>
+                                <span class="text-primary">50%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-primary h-2 rounded-full" style="width: 50%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Next.js</span>
+                                <span class="text-primary">50%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-primary h-2 rounded-full" style="width: 50%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Java</span>
+                                <span class="text-primary">75%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-primary h-2 rounded-full" style="width: 75%"></div>
+                                
+                                
+                            </div>
+                            <br>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-semibold">Arduino</span>
+                                    <span class="text-primary">30%</span>
+                                </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-primary h-2 rounded-full" style="width: 30%"></div>
+                                </div>
+                        </div>
+                        <br>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">İngilizce</span>
+                                <span class="text-primary">60%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-primary h-2 rounded-full" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Arapça</span>
+                                <span class="text-primary">95%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-primary h-2 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-dark mb-4">Projelerim</h2>
+                <div class="w-24 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="relative">
+                        <img src="images/ai görüntü.png" 
+                             alt="ai-destekli-sosyal-medya-danismani" 
+                             class="w-full h-48 object-cover object-center filter contrast-110 brightness-105 saturate-110 cursor-pointer project-image ai-carousel-image"
+                             data-src="images/ai görüntü.png">
+                        <!-- Carousel Arrows -->
+                        <button class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 rounded-full p-2 shadow hover:bg-primary hover:text-white transition-colors ai-carousel-prev" type="button">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 rounded-full p-2 shadow hover:bg-primary hover:text-white transition-colors ai-carousel-next" type="button">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-dark mb-2">AI Destekli Sosyal Medya Danışmanı</h3>
+                        <p class="text-gray-600 mb-4">Modern AI destekli sosyal medya danışmanlığı yapan bir web sitesi. Tailwind CSS, Next.js ve MongoDB kullanılarak geliştirildi.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">TailwindCSS</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Next.js</span>
+                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm">MongoDB</span>
+                        </div>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-primary hover:text-secondary font-semibold">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <img src="images/ucaksim.png" 
+                         alt="Mobil Uygulama" 
+                         class="w-full h-48 object-cover cursor-pointer project-image"
+                         data-src="images/ucaksim.png">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-dark mb-2">Uçak İniş-Kalkış Takip Simülasyonu</h3>
+                        <p class="text-gray-600 mb-4">Priority Queue yapısı ve Java + Java Swing ile geliştirilmiş uçakların iniş-kalkış durumunu listeleyelen proje.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Java</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">Java-Swing</span>
+                        
+                        </div>
+                        <div class="flex space-x-4">
+                            
+                            <a href="https://github.com/apokbln/U-ak-ni--Kalk-Takip-Sim-lasyonu.git" target="_blank" class="text-primary hover:text-secondary font-semibold">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 - ESP-32 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="relative">
+                        <img src="images/esp.jpg" 
+                             alt="esp32-projesi-1" 
+                             class="w-full h-48 object-cover cursor-pointer project-image esp-carousel-image"
+                             data-src="images/esp.jpg">
+                        <img src="images/esp2.jpg" 
+                             alt="esp32-projesi-2" 
+                             class="w-full h-48 object-cover cursor-pointer project-image esp-carousel-image hidden"
+                             data-src="images/esp2.jpg">
+                        
+                        <!-- Carousel Arrows -->
+                        <button class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 rounded-full p-2 shadow hover:bg-primary hover:text-white transition-colors esp-carousel-prev" type="button">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 rounded-full p-2 shadow hover:bg-primary hover:text-white transition-colors esp-carousel-next" type="button">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-dark mb-2">ESP-32 Bricks'n Ball Oyunu Projesi</h3>
+                        <p class="text-gray-600 mb-4">ESP-32 ile Arduino tabanlı Mini Oyun Projesi.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">ESP-32</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">C/C++</span>
+                        </div>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/apokbln/ESP-32-ile-Brickn-s-Ball.git" target="_blank" class="text-primary hover:text-secondary font-semibold">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="relative">
+                        <img src="images/Ekran görüntüsü 2025-06-29 035125.png" 
+                             alt="blog-projesi-1" 
+                             class="w-full h-48 object-cover cursor-pointer project-image blog-carousel-image"
+                             data-src="images/Ekran görüntüsü 2025-06-29 035125.png">
+                        <img src="images/kb2.png" 
+                             alt="blog-projesi-2" 
+                             class="w-full h-48 object-cover cursor-pointer project-image blog-carousel-image hidden"
+                             data-src="images/kb2.png">
+                        <img src="images/kb4.png" 
+                             alt="blog-projesi-3" 
+                             class="w-full h-48 object-cover cursor-pointer project-image blog-carousel-image hidden"
+                             data-src="images/kb4.png">
+                        <img src="images/kb3.png" 
+                             alt="blog-projesi-3" 
+                             class="w-full h-48 object-cover cursor-pointer project-image blog-carousel-image hidden"
+                             data-src="images/kb3.png">
+                        <!-- Carousel Arrows -->
+                        <button class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 rounded-full p-2 shadow hover:bg-primary hover:text-white transition-colors blog-carousel-prev" type="button">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 rounded-full p-2 shadow hover:bg-primary hover:text-white transition-colors blog-carousel-next" type="button">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-dark mb-2">Kişisel Blog</h3>
+                        <p class="text-gray-600 mb-4">Next.js ve Tailwind CSS ile geliştirilmiş modern blog sitesi.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-black text-white rounded-full text-sm">Next.js</span>
+                            <span class="px-3 py-1 bg-cyan-100 text-cyan-800 rounded-full text-sm">Tailwind</span>
+                        </div>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/apokbln/K-S-SEL-BLOG-S-TES-.git" target="_blank" class="text-primary hover:text-secondary font-semibold">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden flex items-center justify-center p-4">
+        <div class="relative max-w-4xl max-h-full">
+            <img id="modalImage" src="" alt="Modal Image" class="max-w-full max-h-full object-contain rounded-lg">
+            <button id="closeModal" class="absolute top-4 right-4 text-white text-4xl font-bold hover:text-gray-300 transition-colors">
+                &times;
+            </button>
+            <div class="absolute bottom-4 left-4 text-white text-sm opacity-75">
+                ESC tuşu ile kapatabilirsiniz
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-dark mb-4">İletişim</h2>
+                <div class="w-24 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="max-w-2xl mx-auto text-center">
+                <h3 class="text-2xl font-bold text-dark mb-6">Benimle İletişime Geçin</h3>
+                <p class="text-lg text-gray-600 mb-12">
+                    Yeni projeler, işbirliği fırsatları veya sadece merhaba demek için 
+                    benimle iletişime geçebilirsiniz.
+                </p>
+                
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-envelope text-white text-xl"></i>
+                        </div>
+                        <h4 class="font-semibold text-dark mb-2">Email</h4>
+                        <a href="mailto:kablanabdullah1@gmail.com" class="text-gray-600 hover:text-primary transition-colors">
+                            kablanabdullah1@gmail.com
+                        </a>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-phone text-white text-xl"></i>
+                        </div>
+                        <h4 class="font-semibold text-dark mb-2">Telefon</h4>
+                        <a href="tel:+905358577789" class="text-gray-600 hover:text-primary transition-colors">
+                            +90 535 857 77 89
+                        </a>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-map-marker-alt text-white text-xl"></i>
+                        </div>
+                        <h4 class="font-semibold text-dark mb-2">Konum</h4>
+                        <p class="text-gray-600">Hatay, Türkiye</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold text-dark mb-6">Sosyal Medya</h4>
+                    <div class="flex justify-center space-x-6">
+                        <a href="https://www.linkedin.com/in/abdullah-kablan-47684a280/" target="_blank" 
+                           class="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white hover:bg-secondary transition-all duration-300 transform hover:scale-110">
+                            <i class="fab fa-linkedin-in text-xl"></i>
+                        </a>
+                        <a href="https://github.com/apokbln" target="_blank" 
+                           class="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white hover:bg-secondary transition-all duration-300 transform hover:scale-110">
+                            <i class="fab fa-github text-xl"></i>
+                        </a>
+                        <a href="https://x.com/apokbln" target="_blank" 
+                           class="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white hover:bg-secondary transition-all duration-300 transform hover:scale-110">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="https://www.instagram.com/apokbln/" target="_blank" 
+                           class="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white hover:bg-secondary transition-all duration-300 transform hover:scale-110">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-8">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2024 Abdullah Kablan. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Image Modal functionality
+        const imageModal = document.getElementById('imageModal');
+        const modalImage = document.getElementById('modalImage');
+        const closeModal = document.getElementById('closeModal');
+        const projectImages = document.querySelectorAll('.project-image');
+
+        // --- AI Carousel ---
+        const aiImages = document.querySelectorAll('.ai-carousel-image');
+        const aiPrev = document.querySelector('.ai-carousel-prev');
+        const aiNext = document.querySelector('.ai-carousel-next');
+        let aiCurrent = 0;
+
+        function showAiImage(idx) {
+            aiImages.forEach((img, i) => {
+                img.classList.toggle('hidden', i !== idx);
+            });
+            aiCurrent = idx;
+        }
+        aiPrev.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showAiImage((aiCurrent - 1 + aiImages.length) % aiImages.length);
+        });
+        aiNext.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showAiImage((aiCurrent + 1) % aiImages.length);
+        });
+        // Başlangıçta ilk fotoğrafı göster
+        showAiImage(0);
+
+        // --- Blog Carousel ---
+        const blogImages = document.querySelectorAll('.blog-carousel-image');
+        const blogPrev = document.querySelector('.blog-carousel-prev');
+        const blogNext = document.querySelector('.blog-carousel-next');
+        let blogCurrent = 0;
+        function showBlogImage(idx) {
+            blogImages.forEach((img, i) => {
+                img.classList.toggle('hidden', i !== idx);
+            });
+            blogCurrent = idx;
+        }
+        blogPrev.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showBlogImage((blogCurrent - 1 + blogImages.length) % blogImages.length);
+        });
+        blogNext.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showBlogImage((blogCurrent + 1) % blogImages.length);
+        });
+        showBlogImage(0);
+
+        // --- ESP Carousel ---
+        const espImages = document.querySelectorAll('.esp-carousel-image');
+        const espPrev = document.querySelector('.esp-carousel-prev');
+        const espNext = document.querySelector('.esp-carousel-next');
+        let espCurrent = 0;
+        function showEspImage(idx) {
+            espImages.forEach((img, i) => {
+                img.classList.toggle('hidden', i !== idx);
+            });
+            espCurrent = idx;
+        }
+        espPrev.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showEspImage((espCurrent - 1 + espImages.length) % espImages.length);
+        });
+        espNext.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showEspImage((espCurrent + 1) % espImages.length);
+        });
+        showEspImage(0);
+
+        // Open modal when clicking on project images
+        projectImages.forEach(img => {
+            img.addEventListener('click', () => {
+                if (img.classList.contains('ai-carousel-image')) {
+                    const activeAi = Array.from(aiImages).findIndex(i => !i.classList.contains('hidden'));
+                    modalImage.src = aiImages[activeAi].getAttribute('data-src');
+                } else if (img.classList.contains('blog-carousel-image')) {
+                    const activeBlog = Array.from(blogImages).findIndex(i => !i.classList.contains('hidden'));
+                    modalImage.src = blogImages[activeBlog].getAttribute('data-src');
+                } else if (img.classList.contains('esp-carousel-image')) {
+                    const activeEsp = Array.from(espImages).findIndex(i => !i.classList.contains('hidden'));
+                    modalImage.src = espImages[activeEsp].getAttribute('data-src');
+                } else {
+                    modalImage.src = img.getAttribute('data-src');
+                }
+                imageModal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        // Modal açıkken ok tuşları ile geçiş (her zaman çalışsın)
+        document.addEventListener('keydown', (e) => {
+            if (!imageModal.classList.contains('hidden')) {
+                if (modalImage.src.includes('ai') && aiImages.length > 1) {
+                    if (e.key === 'ArrowLeft') {
+                        showAiImage((aiCurrent - 1 + aiImages.length) % aiImages.length);
+                        modalImage.src = aiImages[aiCurrent].getAttribute('data-src');
+                    }
+                    if (e.key === 'ArrowRight') {
+                        showAiImage((aiCurrent + 1) % aiImages.length);
+                        modalImage.src = aiImages[aiCurrent].getAttribute('data-src');
+                    }
+                }
+                if (modalImage.src.includes('blog') && blogImages.length > 1) {
+                    if (e.key === 'ArrowLeft') {
+                        showBlogImage((blogCurrent - 1 + blogImages.length) % blogImages.length);
+                        modalImage.src = blogImages[blogCurrent].getAttribute('data-src');
+                    }
+                    if (e.key === 'ArrowRight') {
+                        showBlogImage((blogCurrent + 1) % blogImages.length);
+                        modalImage.src = blogImages[blogCurrent].getAttribute('data-src');
+                    }
+                }
+                if (modalImage.src.includes('esp') && espImages.length > 1) {
+                    if (e.key === 'ArrowLeft') {
+                        showEspImage((espCurrent - 1 + espImages.length) % espImages.length);
+                        modalImage.src = espImages[espCurrent].getAttribute('data-src');
+                    }
+                    if (e.key === 'ArrowRight') {
+                        showEspImage((espCurrent + 1) % espImages.length);
+                        modalImage.src = espImages[espCurrent].getAttribute('data-src');
+                    }
+                }
+            }
+        });
+
+        // Close modal functions
+        function closeImageModal() {
+            imageModal.classList.add('hidden');
+            document.body.style.overflow = 'auto'; // Restore scrolling
+        }
+
+        // Close modal when clicking close button
+        closeModal.addEventListener('click', closeImageModal);
+
+        // Close modal when clicking outside the image
+        imageModal.addEventListener('click', (e) => {
+            if (e.target === imageModal) {
+                closeImageModal();
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+                // Close mobile menu if open
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Active navigation link highlighting
+        const navLinks = document.querySelectorAll('.nav-link, .mobile-nav-link');
+        const sections = document.querySelectorAll('section[id]');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('text-primary');
+                link.classList.add('text-gray-600');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.remove('text-gray-600');
+                    link.classList.add('text-primary');
+                }
+            });
+        });
+    </script>
+
+    <style>
+        .nav-link, .mobile-nav-link {
+            @apply text-gray-600 hover:text-primary transition-colors duration-300;
+        }
+        
+        .mobile-nav-link {
+            @apply block px-3 py-2 text-base font-medium;
+        }
+
+        .project-image {
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+
+        .project-image:hover {
+            transform: scale(1.02);
+            filter: brightness(1.1);
+        }
+
+        #imageModal {
+            backdrop-filter: blur(5px);
+        }
+
+        #modalImage {
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</body>
+</html> 
